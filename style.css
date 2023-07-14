@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+
+.hero {
+    color: aliceblue;
+    text-align: center;
+    background-image: url("imag/lahore.webp");
+    background-size: cover;
+    height: 700px;
+    border-bottom: 5px solid #f78a8a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-head{
+    text-shadow: 0px 0px 3px #000000;
+    background: rgb(122, 154, 167);
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 250px 0 40px 0;
+}
+
+#head-1 {
+    text-shadow: 0px 0px 3px #000000;
+    background: rgb(85, 106, 114);
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-top: 0;
+}
+
+#sub-head {
+    margin: 350px 0 40px 0;
+    background-color: #fdfcdc;
+    padding: 10px 30px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.act {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f3e7;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0px auto;
+    border-bottom: 5px solid #f78a8a;
+    height: 700px;
+}
+
+.start-align {
+    text-align: start;
+    margin: 0px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.adjust {
+    max-width: 400px;
+}
+
+.act-img {
+    width: 200px;
+    height: 200px;
+    border: 6px solid #fdfccd;
+    border-radius: 50%;
+    margin: 130px auto 20px auto;
+}
+
+
+.card {
+    width: 40%;
+    height: 40%;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border: 6px solid #8980b1;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#overview {
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.avatar {
+    width: 100%;
+    height: 90%;
+    border: 2px solid #8980b1;
+}
